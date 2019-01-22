@@ -1,0 +1,183 @@
+    body,html{
+        margin: 0;
+        height: 100%;
+        line-height: 1.08em;
+        font-size: 16px;
+        font-family:"Lato", sans-serif;
+        color:#575555;
+    }
+
+a.nav-link{
+    padding: 15px 40px !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: orange;
+    border-bottom: 1px solid orangered;
+}
+    .pimg1{
+        background-image: url('../img/pic2.jpeg');
+        min-height: 100%;
+    }
+    .pimg2{
+        background-image: url('../img/banana.jpeg');
+        min-height: 70%;
+    }
+    .pimg3{
+        background-image: url('../img/pic1.jpg');
+        min-height: 80%;
+    }
+    .pimg4{
+        background-image: url('../img/pic5.jpg');
+        min-height: 80%;
+    }
+
+    .pimg5{
+        background-image: url('../img/pic4.jpg');
+        min-height: 80%;
+    }
+    .pimg1,.pimg2,.pimg3,.pimg4,.pimg5{
+        position: relative;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .pimg-txt{
+        text-align: center;
+        top: 50%;
+        left: 35%;
+        position: absolute;
+        font-size: 2em;
+        color: #fff;
+        font-weight: bolder;
+        opacity: 1;
+    }
+    .navbar-fixed {
+        top: 0;
+        z-index: 100;
+        position: fixed;
+        width: 100%;
+}
+/*about starts here*/
+    .sec-light{
+        padding: 30px 0px;
+        position: relative;
+    }
+    .sec-light h3{
+        text-align: center;
+    }
+    .lines {
+    border-bottom: 2px solid;
+    width: 17%;
+    position: relative;
+    left: 41%;
+    margin-top: 31px;
+}
+    .lines:before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    left: 40%;
+    transform: rotate(46deg);
+    width: 30px;
+    background-color: #ff8900;
+    margin-top: -14px;
+}
+    .img-shadow{
+       -webkit-box-shadow: 0px 1px 11px 6px rgba(0,0,0,0.14);
+        -moz-box-shadow: 0px 1px 11px 6px rgba(0,0,0,0.14);
+        box-shadow: 0px 1px 11px 6px rgba(0,0,0,0.14);
+    }
+    .detail-text{
+        line-height: 1.8em;
+        font-size: 18px;
+        list-style: none;
+        border-left: 1px solid;
+    }
+.detail-text span{
+    color: orange;
+    font-weight: bolder;
+    font-stretch: extra-expanded;
+}
+    .detail-text li:nth-child(1){
+        font-size: 28px;
+        color: orange;
+    }
+    .detail-wrap{
+        padding-top: 50px;
+        
+    }
+.sideline{
+    border-left: 2px solid;
+    width: 1px;
+    height: 30%;
+    position: absolute;
+    left: -5px;
+    top: 35%;
+}
+/*about ends here*/
+.card{
+    max-width: 100%;
+    margin: 10px;
+}
+
+/*offer starts here*/
+.carsol-img{
+    padding: 15px;
+    max-width: 40%;
+}
+.owl-carousel .owl-item img {
+    display: inline-block !important;
+    width: 100%;
+}
+
+/*skill starts here*/
+.progress{
+    margin-bottom: 13px;
+    padding-left: 5px;
+}
+
+/*portfolio starts here*/
+.port-center{
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+}
+.port-btn{
+    margin-top: 50px;
+}
+.btn-group-vertical .btn, .btn-group-vertical .btn-group {
+    width: 100%;
+    margin: 5px;
+}
+.img-fix{
+    max-width: 100%;
+}
+.portfolio-pic img{
+    margin: 10px;
+}
+.portfolio-pic figure{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-pic figcaption{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 100%;
+    background: rgba(0,0,0,0.5);
+	transition: all 0.5s;
+    
+}
+.portfolio-pic figcaption a{
+    top: 50%;
+    left: 35%;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    
+}
+.portfolio-pic figure:hover figcaption{
+    top: 0;
+}

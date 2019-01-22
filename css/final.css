@@ -1,0 +1,1211 @@
+/*****************************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************************/
+
+#post {
+/*    background-image: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg");*/
+    background-size: cover;
+    background-color: #90CFB2;
+}
+
+#ulink {
+    background-color: #03B0D2;
+    opacity: .7;
+    padding-bottom: 50px;
+}
+
+.img-fix {
+    height: 65%;
+    max-width: 70%;
+}
+
+.img-fix2 {
+    max-width: 100%;
+}
+
+.logo-fix {
+    width: 25%;
+}
+
+a.navbar-brand {
+    font-size: 14px;
+    color: #fff!important;
+    font-weight: bold;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.nav-bg {
+    background-color: #03B0D2;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000 !important;
+    text-decoration: underline;
+}
+
+/*nav ends*/
+
+/*carosle start*/
+
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.carousel-caption {
+    bottom: 40%;
+}
+
+/*carosle ends*/
+
+.left-bar {
+    margin-top: 50px;
+    background-color: transparent;
+}
+
+.post-card {
+    margin-bottom: 2%;
+    width: 100%;
+    background-color: transparent;
+    color: #fff !important;
+    font-weight: bolder;
+}
+
+.right-bar {
+    background-color: transparent;
+}
+
+.catagoryul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.catagoryul p {
+    background-color: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .input-field {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+.help {
+    padding-top: 22px;
+    padding-bottom: 3px;
+    font-size: 17px;
+}
+
+.help a {
+    text-decoration: none;
+}
+
+.help a p,
+.help i {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.fa-quora:hover {
+    color: blue;
+}
+
+.fa-stack-overflow:hover {
+    color: orange;
+}
+
+.fa-google:hover {
+    color: #4285F4;
+}
+
+.fa-bold:hover {
+    color: #563D7C;
+}
+
+footer {
+    margin-top: 3%;
+    background-color: black;
+}
+
+.icons-sm {
+    padding: .5rem;
+    margin: .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.page-footer a {
+    color: #fff;
+}
+
+.page-footer a {
+    color: #0275d8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+    text-align: center;
+}
+
+.fa-lg {
+    color: white;
+    padding-top: 3%;
+}
+
+.fa-lg:hover {
+    color: red !important;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #76ff03 !important;
+}
+
+.container-fluid a {
+    color: white;
+}
+
+/*card section*/
+
+.cd {
+    margin: 5PX;
+    max-width: 100%;
+    text-align: center;
+}
+
+.cd .card-text,
+.card-title {
+    color: #000;
+}
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 25px solid red;
+    opacity: 0.3;
+    margin: 0 auto;
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 25px solid red;
+    opacity: 0.3;
+    margin: 0 auto;
+}
+
+.wrap-text-head {
+    padding: 40px 0px;
+}
+
+.row {
+    align-items: stretch;
+    width: 100%!important;
+}
+
+/*index page css ends here*/
+
+/**********************************************************************************************************************************/
+
+/**********************************************************************************************************************************/
+
+/*register page css starts here*/
+
+.intro-2 {
+    background: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #3f51b5 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #3f51b5 !important;
+    }
+}
+
+.hm-gradient .full-bg-img {
+    background: -webkit-linear-gradient(45deg, rgba(83, 125, 210, 0.4), rgba(178, 30, 123, 0.4) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(29, 236, 197, 0.4)), to(rgba(96, 0, 136, 0.4)));
+    background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%);
+}
+
+.register-card {
+    background-color: rgba(229, 228, 255, 0.2);
+}
+
+.md-form .prefix {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.md-form label {
+    color: #ffffff;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 1040px;
+    }
+}
+
+/* YOUR CUSTOM STYLES */
+
+.signup {
+    margin-bottom: 75%;
+}
+
+.card.wow.fadeInRight {
+    max-width: -webkit-fill-available;
+}
+
+/*register page css ends here*/
+
+/**********************************************************************************************************************************/
+
+/**********************************************************************************************************************************/
+
+/*history page css starts*/
+
+#know {
+    padding: 60px 0px;
+}
+
+#know h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: #42CAD1;
+}
+
+#know img {
+    width: 19%;
+}
+
+#know h5 {
+    font-size: 2rem;
+    color: #90d0b3;
+    padding-bottom: 10px;
+}
+
+#know p {
+    color: #616161;
+    padding-top: 5%;
+    padding-left: 25px;
+    color: black;
+    font-size: 20px;
+}
+
+#history {
+    padding: 60px 0px;
+}
+
+#history .container {
+    padding: 0;
+}
+
+#history h1 {
+    color: #42CAD1;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+#history img {
+    width: 100%;
+    padding-right: 5px;
+    padding-top: 5px;
+    height: 100%;
+}
+
+#history .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#history h4 {
+    color: #90d0b3;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#history row {
+    padding-right: 4px;
+}
+
+#history p {
+    color: #616161;
+    font-size: 1rem;
+}
+
+#history .btn-primary {
+    float: right;
+    margin-top: 10px;
+}
+
+#history .col-md-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#history .col-md-8 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#history .first {
+    position: relative;
+    overflow: hidden;
+}
+
+#history .first .first-hover {
+    position: absolute;
+    top: 100%;
+    left: 77%;
+    height: 45%;
+    width: 100%;
+    background-color: transparent;
+    transition-duration: 0.7s;
+}
+
+#history .first:hover .first-hover {
+    top: 1%;
+    background-color: transparent;
+    transition: all 2s;
+    transition-duration: 2s;
+}
+
+#history #flag {
+    width: 85px;
+    height: 45px;
+    padding-top: 8px;
+    position: relative;
+    background: #616161;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 19px;
+    font-weight: 600;
+}
+
+#history #flag:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 13px solid #fff;
+    border-left: 40px solid transparent;
+    border-right: 38px solid transparent;
+}
+
+#history .second {
+    position: relative;
+    overflow: hidden;
+}
+
+#history .second .second-hover {
+    position: absolute;
+    top: 100%;
+    left: 65%;
+    height: 45%;
+    width: 100%;
+    background-color: transparent;
+    transition-duration: 0.7s;
+}
+
+#history .second:hover .second-hover {
+    top: 3%;
+    background-color: transparent;
+    transition: all 2s;
+    transition-duration: 2s;
+}
+
+#history #flag h5 {
+    font-size: 1rem;
+}
+
+#card {
+    padding: 30px 0px;
+}
+
+#card h1 {
+    color: #42CAD1;
+    padding-bottom: 45px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#card h4 {
+    text-transform: uppercase;
+    color: #90d0b3;
+}
+
+#card p {
+    color: #616161;
+}
+
+.news-card {
+    width: 100%;
+}
+
+#video h1 {
+    font-size: 3rem;
+    color: #42CAD1;
+    padding-bottom: 45px;
+    font-weight: 600;
+}
+
+/*history style ends here*/
+
+/***********************************************************************************************************************************************************
+************************************************************************************************************************************************************/
+
+/*member style start here*/
+
+#list {
+    padding: 50px 0px;
+}
+
+#list h1 {
+    padding-bottom: 30px;
+    font-size: 2.2rem;
+    color: #42CAD1;
+}
+
+tr th:nth-child(1) {
+    width: 4%;
+}
+
+td {
+    width: 50%;
+}
+
+.member-fix {
+    max-width: 15%;
+}
+
+#progess {
+    padding: 40px 0px;
+}
+
+#progess h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 40px;
+    color: #42CAD1;
+}
+
+/*
+p {
+    color: #525252;
+    font-size: 12px;
+}
+*/
+
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-bar {
+    height: 35px;
+    width: 0px;
+    background: #6adcfa;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.member-hide {
+    display: none;
+}
+
+/*member style ends here*/
+
+/*************************************************************************************************************************************************************
+*************************************************************************************************************************************************************/
+
+/*gallery Style Start Here*/
+
+#gallery h1 {
+    font-weight: 700;
+    color: #42CAD1;
+}
+
+
+#activity {
+    padding: 50px 0px;
+}
+
+#activity h1 {
+    font-weight: 700;
+    color: #42CAD1;
+}
+
+#activity .col-md-4,
+#activity .col-md-12,
+#activity .col-md-8 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#activity .card {
+    border: 2px solid #fff;
+}
+
+#activity .btn {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+#activity #filters {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+#activity .btn:hover {
+    background-color: #58e246;
+    color: #fff;
+}
+
+#recreation{
+    background-color: aquamarine;
+    padding-bottom: 20px;
+}
+
+#recreation h1 {
+    color: #1D9D73;
+    font-weight: 700;
+}
+
+#recreation .bord {
+    border: 1px solid #ddd;
+}
+
+#recreation .col-md-10 .row > .col-md-4 {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#recreation .col-md-10 .row > .col-md-4 >.img-fluid {
+    border: 3px solid #fff;
+}
+
+#recreation .col-md-8 .first,
+#recreation .second {
+    overflow: hidden;
+}
+
+#recreation .figure {
+    position: relative;
+    overflow: hidden;
+}
+
+#recreation .figure figcaption {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition-duration: 0.7s;
+}
+
+#recreation .figure:hover figcaption {
+    top: 0%;
+}
+
+#recreation .figure figcaption .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#review {
+    padding: 50px 0px;
+}
+
+#review img {
+    width: 18%;
+}
+
+#review h1 {
+    font-weight: 700;
+    color: #42CAD1;
+}
+
+#review h5 {
+    font-weight: 600;
+}
+
+#review h2 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+#review .media-body > p {
+    padding-top: 0;
+    padding-left: 0px;
+    color: #000;
+    font-size: 0.94rem;
+}
+
+.gellary-btn:hover {
+    background-color: #90D0B3;
+    color: #fff;
+}
+.btn-group-vertical{
+    width: 100%;
+}
+
+/*gallery style Ends Here*/
+
+/****************************************************************************************************************************************************************/
+
+/****************************************************************************************************************************************************************/
+
+/*here starts the css for admin page*/
+
+#president1 {
+    padding: 50px 0px;
+}
+
+#president1 h1 {
+    padding-bottom: 40px;
+    font-size: 2rem;
+    color: #42CAD1;
+}
+
+#admin h2 {
+    color: #42CAD1;
+}
+
+#president1 .col-12 {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 55px;
+    position: relative;
+    z-index: 10;
+}
+
+#president1 h2 {
+    border-bottom: 1px solid #8dd64e;
+    padding-bottom: 10px;
+}
+
+#pointer {
+    padding-left: 35px;
+    width: 250px;
+    height: 40px;
+    position: relative;
+    background: #ddd;
+    top: -31px;
+    color: #fff;
+    z-index: 100;
+}
+
+#pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #8dd64e;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+#pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #ddd;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+#president1 .col-md-3 img {
+    color: #ddd;
+    background-color: red;
+}
+
+#president1 .col-md-3 h4 {
+    line-height: 2.1rem;
+}
+
+#president1 .col-md-3 .mb-5 {
+    margin-bottom: 2.9rem !important;
+}
+
+#admin .section > h2 {
+    border-bottom: 0px;
+}
+
+article,
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+legend,
+main,
+nav,
+section {
+    display: block;
+}
+
+.section .section-heading {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.section-description {
+    color: #757575;
+    margin-bottom: 4rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.section.team-section .avatar {
+    margin-bottom: 2rem;
+    height: auto;
+}
+
+.section.team-section .avatar .rounded-circle {
+    max-width: 170px;
+}
+
+.section.team-section .avatar img {
+    max-width: 200px;
+    height: auto;
+}
+
+.icons-sm {
+    padding: .5rem;
+    margin: .5rem;
+    font-size: 1.2rem;
+}
+
+.fb-ic {
+    color: #3B5998 !important;
+}
+
+a {
+    color: #0275d8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#admin .col-lg-3 h4 {
+    font-size: 1.4rem;
+}
+footer {
+    background-color: transparent;
+}
+/*admin page ends here*/
+
+/****************************************************************************************************************************************************************/
+
+/****************************************************************************************************************************************************************/
+
+/*massage page css here*/
+
+#president {
+    padding: 50px 0px;
+}
+
+#president h1 {
+    padding-bottom: 30px;
+    font-size: 3.5rem;
+    color: #42CAD1;
+    font-weight: 700;
+}
+
+#president h2 {
+    padding-bottom: 20px;
+    font-size: 1.9rem;
+    color: #42CAD1;
+    font-weight: 700;
+}
+
+#president h3 {
+    padding-top: 10px;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+#president h4 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#president h5 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #90d0b3;
+    padding-bottom: 30px;
+}
+
+#president .col-md-12 {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+#president .col-md-12,
+#president .col-md-3,
+#president .col-md-9 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#president .card {
+    margin-bottom: 40px;
+}
+
+.president-card .card-body i {
+    color: #000;
+}
+
+.president-card .card-body i:hover {
+    color: red;
+}
+
+/*massage page ends here*/
+
+/****************************************************************************************************************************************************************/
+
+/****************************************************************************************************************************************************************/
+
+/*contact page css starts here*/
+
+.all-wrap {
+    background-image: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg");
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+#contant-1 {
+    color: #616161;
+    text-align: center;
+
+}
+
+.get {
+    color: #000;
+    font-size: 39px;
+    padding: 10px;
+
+}
+
+.touch {
+    color: red;
+}
+
+.card {
+    margin-top: 4%;
+    background-color:
+}
+
+.plane {
+    color: green;
+    padding-left: 30%;
+}
+
+.send {
+    color: black;
+}
+
+.fa-1 {}
+
+#form {
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+
+#form p {
+    padding-top: 25px;
+
+}
+
+.fa-commenting-o {
+    font-size: 2rem;
+}
+
+.md-form .prefix {
+    margin-top: 2%;
+    margin-left: 2%
+}
+
+/*
+.img-fluid {
+    height: 25%;
+}
+*/
+
+.media-body > p {
+    padding-top: 5%;
+    padding-left: 25px;
+    color: black;
+    font-size: 20px;
+}
+
+.fa-phone,
+.fa-mobile,
+.fa-skype,
+.fa-home {
+    font-size: 30px;
+    padding-top: 15px;
+    margin-left: 5%;
+}
+
+.one {
+    padding-left: 25px;
+    font-size: 15px;
+    color: black;
+}
+
+.office > h4 {
+    padding-left: 55px;
+}
+
+.office > p {
+    padding-left: 55px;
+}
+
+.office1 {
+    margin-top: 3%;
+}
+
+.customer-card {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+.care-ul li {
+    line-height: 3.30em;
+    list-style: none;
+}
+
+
+iframe {
+    padding-top: 2%;
+}
+
+.fahim > h2 {
+    color: red;
+}
+
+.fahim > p {
+    color: red;
+}
+
+.page-footer {
+    background-color: #000 !important;
+}
+
+.nav-tabs,
+.modal-dialog.modal-notify .modal-header,
+.navbar {
+    -webkit-box-shadow: none;
+}
+.care-ul {
+    padding-top: 20px;
+}
+/*contact ends here*/
+
+/****************************************************************************************************************************************************************/
+
+/****************************************************************************************************************************************************************/
+
+/*responsive code here*/
+@media (max-width: 1068px) {
+    input.btn-block[type="button"], input.btn-block[type="reset"], input.btn-block[type="submit"]{
+        font-size: 10px;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+
+    .navbar:not(.top-nav-collapse) {
+        background-color: #03B0D2 !important;
+    }
+    .left-bar {
+        display: none;
+    }
+    .office1 {
+        margin-top: 5%;
+    }
+
+    .customer-card {
+        margin-top: 5%;
+    }
+    input.btn-block[type="button"], input.btn-block[type="reset"], input.btn-block[type="submit"]{
+        font-size: 18px;
+
+}
+
+@media screen and (max-width: 480px) {
+    #list h1,
+    #progess h2 {
+        font-size: 1.2rem;
+    }
+    .mem-span {
+        font-size: 10px
+    }
+    .mem-span img {
+        display: none;
+    }
+    input.btn-block[type="button"], input.btn-block[type="reset"], input.btn-block[type="submit"]{
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (max-width: 380px) {
+    .member-tbl {
+        display: none;
+    }
+
+    .member-hide {
+        display: block;
+    }
+
+    .fa-lg {
+        color: white;
+        padding: 5%;
+        font-size: 16px;
+    }
+
+}
